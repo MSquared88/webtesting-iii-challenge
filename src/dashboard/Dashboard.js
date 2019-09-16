@@ -30,7 +30,7 @@ class Dashboard extends React.Component {
   };
 
   toggleClosed = () => {
-    this.setState(prev => ({ closed: !prev.closed }));
+    this.setState(prev => ({ close: !prev.closed }));
   };
 }
 
