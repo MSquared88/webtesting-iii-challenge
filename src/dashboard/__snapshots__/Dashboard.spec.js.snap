@@ -31,7 +31,6 @@ Object {
         </button>
         <button
           class="toggle-btn"
-          data-testid="gateBtn"
         >
           Close Gate
         </button>
@@ -65,7 +64,6 @@ Object {
       </button>
       <button
         class="toggle-btn"
-        data-testid="gateBtn"
       >
         Close Gate
       </button>

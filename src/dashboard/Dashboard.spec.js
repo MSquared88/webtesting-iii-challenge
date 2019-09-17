@@ -32,19 +32,5 @@ test('shows the controls and display', () => {
   getByText(/open/i);
 
 });
-test("does gate button change text", () =>{
 
-    const { getByText } = render(<Dashboard />);
-    // const gateLockStatus = getByText()
-    const gateStatus = getByText(/open/i)
-    const gateBtn = getByText(/close gate/i)
-
-    
-    expect(gateStatus.textContent).toBe('Open')
-
-    fireEvent.click(gateBtn)
-
-    // expect(gateStatus.textContent).toBe('Open Gate')
-    expect(gateStatus.textContent).toBe('Closed')
-  })
 
