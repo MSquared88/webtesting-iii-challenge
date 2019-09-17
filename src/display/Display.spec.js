@@ -10,7 +10,7 @@ test("displays 'Closed' if the `closed` prop is `true` and 'Open' if otherwise",
     const mockState = {
         locked: false,
         closed: false,
-      };
+    };
     
       expect(toggleLocked(mockState.locked)).toEqual(true)
       expect(toggleLocked(mockState.closed)).toEqual(true)

@@ -42,3 +42,4 @@ test("does gate and lock buttons change text", () =>{
     expect(gateStatus.textContent).toBe('Open')
     expect(lockBtn.textContent).toBe('Lock Gate')
   })
+git 
